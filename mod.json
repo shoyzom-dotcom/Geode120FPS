@@ -1,0 +1,16 @@
+{
+    "geode": "5.9.0",
+    "gd": {
+        "ios": "2.2081"
+    },
+    "id": "chatgpt.ios120fps",
+    "name": "120 FPS Unlock",
+    "version": "v1.0.0",
+    "developer": "ChatGPT",
+    "description": "Requests a 120 FPS/120 Hz render rate on compatible iOS devices and sets Geometry Dash's animation interval to 120 FPS.",
+    "tags": [
+        "enhancement",
+        "performance",
+        "utility"
+    ]
+}
