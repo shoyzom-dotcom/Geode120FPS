@@ -10,6 +10,7 @@ else()
 endif()
 
 set(CMAKE_CXX_VISIBILITY_PRESET hidden)
+set(CMAKE_DISABLE_PRECOMPILE_HEADERS ON)
 
 project(ios120fps VERSION 1.0.0)
 
