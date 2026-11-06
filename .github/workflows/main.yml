@@ -1,8 +1,5 @@
-- name: Build the mod
-uses: geode-sdk/build-geode-mod@main
-id: build
-with:
-sdk: '5.11.2'
+name: Build Geode Mod
+
 on:
   workflow_dispatch:
   push:
