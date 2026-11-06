@@ -25,7 +25,6 @@ add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
 # UIKit / QuartzCore / GLKit are only used by the iOS implementation.
 if ("${CMAKE_SYSTEM_NAME}" STREQUAL "iOS" OR IOS)
     target_link_libraries(${PROJECT_NAME}
-        PRIVATE
         "-framework UIKit"
         "-framework QuartzCore"
         "-framework GLKit"
