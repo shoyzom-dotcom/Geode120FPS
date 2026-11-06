@@ -1,9 +1,5 @@
 name: Build Geode Mod
-      
-        uses: geode-sdk/build-geode-mod@main
-        id: build
-        with:
-          sdk: 'nightly'
+
 on:
   workflow_dispatch:
   push:
